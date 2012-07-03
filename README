@@ -1,0 +1,15 @@
+ledgerweb v0.0
+
+A project to graphically visualize accounting records built on the back of the powerful ledger-cli and using the visualization majic of D3.js
+To run:
+>ruby ledgerweb.rb
+then point your browser to http://0.0.0.0:4567/force.html
+
+
+v0.0 release notes
+- Depends on a custom libledger.so for python bindings 
+	(same as libledger.a, but linked as a dynamic lib and with a few hacks added to fix bugs in the python support)
+- The example page, force.html is essentially just a few modifications on top of the force directed layoout example from D3
+- The size of the graphics do not scale at all so a more realistic sample data would not fit in the display window
+- Edge cases when drilling down past the smallest sub account are not handled correctly.
+

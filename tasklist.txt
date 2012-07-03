@@ -1,0 +1,18 @@
+ledgerweb tasks:
+- more legible labels
+- color coding
+- indicate positive and negative balances
+- charge and link distance dependent on account bubble sizes
+- label links?
+- produce flow and balance data for sub accounts using python	
+- contact ledger dev about making patches
+- get into shape for upload to gitweb
+- scaling factor 
+	
+***DONE***
+# only replace the account being split
+# new nodes originate at location of parent node
+# get ledger python bindings to work
+# produce flow and balance data with python script
+# fix update/exit for links
+# create flows/links data
